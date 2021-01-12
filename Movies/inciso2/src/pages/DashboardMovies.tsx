@@ -38,7 +38,7 @@ const DashboardMovies = () => {
                     <Typography variant="h5" align="right">Manage tasks, track processes and get the best results using a simple plataform.</Typography>
                 </Grid>
                 <Grid item xs={6}>
-                    <Typography align="left" variant="h6">Peliculas</Typography>
+                    <Typography align="left" variant="h6">Movies</Typography>
                 </Grid>
                 <Grid item xs={6}>
                     <Typography align="right">
@@ -56,7 +56,7 @@ const DashboardMovies = () => {
                     </Grid>
                 </Grid>
                 <Grid item xs={6}>
-                    <Typography variant="h6">Series de TV</Typography>
+                    <Typography variant="h6">TV Shows</Typography>
                 </Grid>
                 <Grid item xs={6}>
                     <Typography align="right">

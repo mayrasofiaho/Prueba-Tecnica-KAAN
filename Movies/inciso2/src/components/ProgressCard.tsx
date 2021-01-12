@@ -13,8 +13,8 @@ const ProgressCard = (props: any) => {
                     <Typography variant="subtitle1">
                         {props.overview}
                     </Typography>
-                    <Typography variant="subtitle1" align='left' color="primary">{props.vote}%</Typography>
-                    <Typography variant="subtitle1" align='right' color="primary">{props.date}</Typography>
+                    <Typography variant="subtitle1" align='left' color="primary">First date emission: {props.date}</Typography>
+                    <Typography variant="subtitle1" align='right' color="primary">{props.vote}%</Typography>
                     <LinearProgress variant="determinate" value={props.vote*10} />
         </CardContent>
     </Card>
