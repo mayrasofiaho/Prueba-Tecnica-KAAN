@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import {makeStyles, Card, CardActions, CardContent,IconButton, CardMedia, Button, Typography} from '@material-ui/core'
+import React from 'react';
+import {makeStyles, Card, CardActions, CardContent,IconButton, CardMedia, Typography} from '@material-ui/core'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 const MovieCard = (props: any) => {
@@ -10,7 +10,6 @@ return (
         <CardContent>
             <Typography className={classes.title} gutterBottom>{props.title}</Typography>
             <CardMedia image={`https://image.tmdb.org/t/p/w500/${props.poster}`} className={classes.media}>
-
             </CardMedia>
         </CardContent>
         <CardActions>

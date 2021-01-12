@@ -65,8 +65,8 @@ const DashboardMovies = () => {
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                    <Grid container>
-                        {series.slice(17).map((serie, i) => (
+                    <Grid container spacing={3}>
+                        {series.slice(16).map((serie, i) => (
                             <Grid item xs={3}>
                                 <ProgressCard name={serie.name} vote={serie.vote_average} overview={serie.overview} date= {serie.first_air_date}/>
                             </Grid>           
