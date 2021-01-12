@@ -42,24 +42,6 @@ function TablaKMP(textString, F){
     return F;
 }
 
-function entradaTeclado (texto){
-    var  i = rl.createInterface(process.stdin, process.stdout, null); 
-    i.question(texto, 
-    function(answer) { 
-    return answer; 
-    i.close(); process.stdin.destroy(); 
-}); 
-}
-
-//var textString = 'TANGENTE';
-//var subString = 'GEJ';
-var textString =entradaTeclado ("Ingrese la cadena donde se buscará el patrón: ")
-var subString =entradaTeclado ("Ingrese el patrón a buscar: ")
-//console.log ("Posicion donde se encontró la subcadena:", searchKMP(textString, subString));
-
-
-var  i = rl.createInterface(process.stdin, process.stdout, null); 
-i.question('Ingresa la cadena donde se buscará el patrón: ', function(answer) { 
-    console.log('Nice to meet you> ' + answer); 
-    i.close(); process.stdin.destroy(); 
-}); 
+var textString = 'TANGENTE';
+var subString = 'GEJ';
+console.log ("Posicion donde se encontró la subcadena:", searchKMP(textString, subString));
